@@ -1,6 +1,6 @@
 # Orthodox Clipper — Windows App (.exe)
 
-Windows desktop wrapper for [Orthodox Clipper](https://orthodoxclipper.pages.dev), built automatically in the cloud with GitHub Actions.
+Windows desktop wrapper for [Orthodox Clipper](https://orthodoxclipper.pages.dev), compatible with **Windows 7, 8, 10, and 11** (64-bit) and built automatically with GitHub Actions.
 
 ## How to get the .exe
 
