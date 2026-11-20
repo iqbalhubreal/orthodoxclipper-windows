@@ -1,0 +1,33 @@
+{
+  "name": "orthodox-clipper-windows",
+  "version": "1.0.0",
+  "description": "Windows desktop app for Orthodox Clipper",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win portable"
+  },
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.orthodoxmuslim.clipper",
+    "productName": "Orthodox Clipper",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "portable",
+          "arch": ["x64"]
+        }
+      ],
+      "icon": "icon.png"
+    },
+    "portable": {
+      "artifactName": "Orthodox-Clipper-Windows.exe"
+    }
+  }
+}
